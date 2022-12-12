@@ -1,0 +1,98 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 16,
+        "width": 16
+    },
+    "display": "marquetags",
+    "fields": {
+        "AAG": {
+            "caption": "image",
+            "default_val": "//s3.amazonaws.com/appforest_uf/f1670391333449x661600648609214700/PNG%20%283%29.png",
+            "doc": "",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "image",
+            "optional": false,
+            "rank": 0,
+            "value": "image"
+        },
+        "AAJ": {
+            "caption": "Direction left",
+            "default_val": true,
+            "doc": "Scroll (Rotate) Right to left images ?",
+            "editor": "Checkbox",
+            "name": "direction_left",
+            "rank": 1
+        },
+        "AAK": {
+            "caption": "Direction Right",
+            "default_val": false,
+            "doc": "Scroll (Rotate)  left to Right images ?",
+            "editor": "Checkbox",
+            "name": "direction_right",
+            "rank": 2
+        },
+        "AAL": {
+            "caption": "Direction Up",
+            "default_val": false,
+            "doc": "Scroll (Rotate)  Down to Up images ?",
+            "editor": "Checkbox",
+            "name": "direction_up",
+            "rank": 3
+        },
+        "AAM": {
+            "caption": "Direction Down",
+            "default_val": false,
+            "doc": "Scroll (Rotate)  Up to Down images ?",
+            "editor": "Checkbox",
+            "name": "direction_down",
+            "rank": 4
+        },
+        "AAN": {
+            "caption": "Behavior Alternate",
+            "default_val": false,
+            "doc": "Scroll (Rotate) alternate behavior ?",
+            "editor": "Checkbox",
+            "name": "behavior_alternate",
+            "rank": 5
+        },
+        "AAQ": {
+            "caption": "width",
+            "default_val": 30,
+            "doc": "width of the image",
+            "editor": "StaticNumber",
+            "name": "width",
+            "rank": 6
+        },
+        "AAR": {
+            "caption": "Height",
+            "default_val": 30,
+            "doc": "height of the image",
+            "editor": "StaticNumber",
+            "name": "height",
+            "rank": 7
+        }
+    },
+    "icon": "ion-android-cloud",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "BoxShadow": false,
+        "Font": false,
+        "MinWidth": false,
+        "Padding": false,
+        "resizable": false
+    },
+    "states": {
+        "AAF": {
+            "caption": "result",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n \n   \n\n\n}"
+            },
+            "name": "result",
+            "value": "text"
+        }
+    }
+}
